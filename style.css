@@ -1,0 +1,93 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+.container {
+	background: #f0f0f0;
+	width: 850px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+header {
+	border: 10px solid #e1e2e2;
+	border-bottom: none;
+	font-family: calibri;
+	padding: 15px;
+}
+header h1 {
+	line-height: 25px;
+}
+header span {
+	text-indent: 2px;
+}
+.task-manager {
+	margin: 0px 10px 25px;
+	background: #fff;
+}
+.task-manager h3 {
+	font-size: 18px;
+	font-weight: normal;
+	text-indent: 25px;
+}
+.task-manager div.cell {
+	width: 413px;
+	display: inline-block;
+	margin-top: 10px;
+	padding-bottom: 15px;
+	vertical-align: top;
+}
+.form label {
+	display: block;
+	font-family: arial;
+	font-size: 14px;
+	margin-left: 25px;
+	margin-top: 20px;
+}
+.form input {
+	border: none;
+	background: #ececec;
+	padding: 10px;
+	margin-left: 25px;
+	width: 70%;
+	border-radius: 2px;
+	color: #000;
+}
+button {
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	background: #444342;
+	color: #fff;
+	margin-left: 25px;
+	margin-top: 20px;
+}
+.error {
+	text-indent: 15px;
+	color: #ff0000;
+	font-size: 12px;
+	display: inline-block;
+	font-family: arial;
+}
+table {
+	border-collapse: collapse;
+	border-radius: 3px;
+	border: 3px solid #dddddf;
+	margin-top: 10px;
+	margin-left: 25px;
+	font-family: arial;
+	font-size: 14px;
+	width: 90%;
+}
+table tr:nth-child(even) {
+	background: #ececec;
+}
+table tr td {
+	padding: 5px;
+	font-weight: bold;
+}
+table tr td:nth-child(2) {
+	font-weight: normal;
+}
+table tr td:last-child {
+	width: 140px;
+}
